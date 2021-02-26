@@ -147,7 +147,7 @@ p {
 }
 @media (min-width: 992px){
     .container{
-        max-width: 9600px !important;
+        max-width: 960px !important;
     }
 }
 @media (min-width: 1200px){
@@ -1163,7 +1163,10 @@ p {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
-.our_location .left_contact ul li:nth-child(2n) a:last-child{
+/*.our_location .left_contact ul li:nth-child(2n) a:last-child{
+    padding-left: 20px;
+}*/
+.our_location .left_contact ul li a span:last-child{
     padding-left: 20px;
 }
 
