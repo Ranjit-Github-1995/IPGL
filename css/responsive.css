@@ -1,0 +1,314 @@
+/* Responsive css */
+
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991px) {
+    .overlay{
+        display: none;
+    }
+    .fullscreen{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+
+/* Responsive nav end */
+
+
+
+@media (max-width: 575px){
+    
+    .navbar-toggler{
+        position: relative;
+        top: 10px;
+    }
+    .top_banner{
+        padding: 45px 0;
+    }
+    .top_banner .banner_cap h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .top_banner .banner_cap span{
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .top_banner .banner_cap p{
+        padding-bottom: 15px;
+    }
+    .top_banner .banner_cap a{
+        display: inline-flex;
+        margin-bottom: 15px;
+    }
+    .carousel-item{
+        width: 80%;
+    }
+    .top_banner .carousel-item img{
+        width: 100%;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        right: 0;
+        top: 145px;
+    }
+    .carousel-control-next{
+        top: 80px;
+    }
+    .africa_rising{
+        margin-top: 40px;
+    }
+    .africa_rising::after{
+        display: none;
+    }
+    .africa_rising .left_con h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .africa_rising .left_con h5{
+        font-size: 30px;
+    }
+    .africa_rising .left_con p{
+        padding-top: 0px;
+    }
+    .africa_rising .left_con a{
+        margin-bottom: 15px;
+        display: inline-flex;
+    }
+    .africa_rising img{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .project{
+        margin-top: 40px;
+    }
+    .project .project_list_tab{
+        padding: 70px 0 30px 0;
+        overflow-y: scroll;
+        overflow-x: auto;
+    }
+    .project .project_list_tab ul.listing{
+        width: 860px;
+    }
+    .project .project_list_tab ul.listing li{
+        padding: 0 15px;
+    }
+    .project .project_list_tab ul li a{
+        font-size: 20px;
+    }
+    .project .project_des .left_iamge_box{
+        width: 95%;
+        bottom: 460px;
+        height: 410px;
+    }
+    .project h2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        font-size: 40px;
+        padding-top: 15px;
+    }
+    .project .project_des_info{
+        width: 100%;
+        height: 900px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .project .project_des .right_content{
+        bottom: 270px;
+        padding-left: 0px;
+    }
+    .project .project_des .right_content{
+        padding-left: 0px;
+    }
+    .project .project_des .right_content h5{
+        font-size: 35px;
+    }
+    .project .project_des .right_content h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .project .project_des .right_content span{
+        font-size: 22px;
+        width: 95%;
+        padding-top: 0px;
+    }
+    .project .project_des .pra{
+        width: 95%;
+        top: -260px;
+        left: 3%;
+    }
+    .project_gallery{
+        margin-top: 40px;
+        padding: 50px 0 50px 0;
+    }
+    .project_gallery .vector_bg_shape{
+        background-size: 100%;
+    }
+    .project_gallery .vector_bg_shape .content{
+        padding: 115px 0px 0px 55px;
+    }
+    .project_gallery .vector_bg_shape .content h5{
+        font-size: 30px;
+    }
+    .project_gallery .vector_bg_shape .content h3{
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+    .project_gallery .vector_bg_shape .content p{
+        font-size: 22px;
+        padding-bottom: 100px;
+    }
+    .project_gallery a{
+        padding: 50px 0;
+    }
+    .gallery{
+        margin-top: 40px;
+    }
+    .gallery .lightbox a{
+        margin-bottom: 15px;
+    }
+    .gallery .lightbox a .overly_plus span img{
+        top: 40%;
+        left: 40%;
+        width: 65px;
+        height: 65px;
+    }
+    .gallery .lightbox::before, ::after{
+        display: none;
+    }
+    .gallery .lightbox a.view_more{
+        margin-top: 10px;
+    }
+    .our_location{
+        margin-top: 40px;
+    }
+    .our_location .left_contact{
+        padding-top: 40px;
+    }
+    .our_location .left_contact h5{
+        font-size: 30px;
+    }
+    .our_location .left_contact h3{
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 5px;
+    }
+    .our_location .left_contact p{
+        padding-bottom: 15px;
+    }
+    .our_location .left_contact ul li:nth-child(2n) a{
+        font-size: 16px;
+        width: 100%;
+    }
+    .our_location .left_contact ul li:nth-child(2n) a:last-child{
+        padding-left: 5px;
+    }
+    .our_location .right_map_vector{
+        padding-top: 40px;
+    }
+    .our_location .right_map_vector img{
+        width: 100%;
+    }
+    .get_in{
+        padding: 40px 0;
+    }
+    .get_in h3{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .get_in .form_area{
+        padding-top: 40px;
+    }
+    .get_in .form_area input[type="text"], [type="email"]{
+        margin-bottom: 15px;
+        border-bottom: 1px solid #858886;
+    }
+    .get_in .form_area textarea{
+        margin-top: 15px;
+    }
+    .get_in .form_area textarea{
+        border-bottom: 1px solid #858886;
+    }
+    .get_in a{
+        margin: 40px auto auto;
+        width: 60%;
+    }
+    .copyright{
+        padding: 25px 0;
+    }
+    .copyright .footer_social{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    
+    
+}
+@media (min-width: 375px) and (max-width: 550px){
+    
+    .project .project_des_info{
+        height: 1000px;
+    }
+    .project .project_des .left_iamge_box{
+        width: 93%;
+        bottom: 610px;
+        height: 360px;
+    }
+    .project .project_des .right_content{
+        bottom: 377px;
+    }
+    .project .project_des .pra{
+        top: -360px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
