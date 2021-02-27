@@ -636,6 +636,7 @@
         right: 0;
         font-size: 40px;
         padding-top: 15px;
+        padding-bottom: 0px;
     }
     .project .project_des_info{
         width: 100%;
