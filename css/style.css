@@ -257,6 +257,7 @@ p {
 }
 .left_nav{
     justify-content: right;
+    float: right;
 }
         
 .sub-menu {

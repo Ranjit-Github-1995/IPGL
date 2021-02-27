@@ -176,6 +176,9 @@
 
 @media (max-width: 991px){
     
+    .left_nav{
+        float: none;
+    }
     .carousel-inner{
         width: 90%;
     }
@@ -375,7 +378,7 @@
         top: 90%;
     }
     .carousel-control-prev, .carousel-control-next .rounded-circle img{
-        rotate: 90deg;
+        transform: rotate(90deg);
     }
     .carousel{
         padding-bottom: 60px;
