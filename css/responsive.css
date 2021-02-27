@@ -324,13 +324,23 @@
     
 }
 
+@media (min-width: 768px){
+    
+    .desktop{
+        display: none;
+    }
+}
+
 @media (max-width: 767px){
     
+    .mobile{
+        display: none;
+    }
     .top_banner{
         padding: 30px 0 50px 0;
     }
     .top_banner .banner_cap{
-        padding-top: 0px;
+        padding-top: 10px;
     }
     .top_banner .banner_cap span{
         font-size: 90px;
@@ -347,15 +357,28 @@
         margin-bottom: 15px;
     }
     .carousel-inner{
-        width: 90%;
+        width: 100%;
     }
     .carousel-inner img{
         width: 100%;
         height: 425px;
         object-fit: cover;
     }
-    .carousel-control-prev,.carousel-control-next{
-        right: -30px;
+    .carousel-control-prev{
+        right: 0;
+        left: 35%;
+        top: 90%;
+    }
+    .carousel-control-next{
+        right: 0;
+        left: 47%;
+        top: 90%;
+    }
+    .carousel-control-prev, .carousel-control-next .rounded-circle img{
+        rotate: 90deg;
+    }
+    .carousel{
+        padding-bottom: 60px;
     }
     .africa_rising .left_con h5{
         font-size: 35px;
@@ -796,7 +819,7 @@
         width: 100%;
     }
     .carousel-item{
-        width: 82%;
+        width: 100%;
     }
     .project .project_des_info{
         height: 1000px;
@@ -809,8 +832,15 @@
     .project .project_des .pra{
         top: -360px;
     }
-    .carousel-control-prev, .carousel-control-next{
-        right: -10px;
+    .carousel-control-next{
+        left: 46%;
+        right: 0;
+        top: 438px;
+    }
+    .carousel-control-prev{
+        left: 27%;
+        top: 438px;
+        right: 0;
     }
     .get_in a{
         width: 60%;
@@ -851,13 +881,20 @@
 @media (min-width: 320px) and (max-width: 375px){
     
     .carousel-item{
-        width: 95%;
+        width: 100%;
     }
     .carousel-inner img{
         height: 300px;
     }
-    .carousel-control-prev, .carousel-control-next{
-        right: -8px;
+    .carousel-control-next{
+        left: 46%;
+        right: 0;
+        top: 315px;
+    }
+    .carousel-control-prev{
+        left: 27%;
+        top: 315px;
+        right: 0;
     }
     .africa_rising .left_con h5{
         font-size: 28px;
