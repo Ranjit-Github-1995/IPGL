@@ -613,7 +613,7 @@
         overflow-y: scroll;
         overflow-x: auto;
         position: relative;
-        z-index: 555;
+        z-index: 0;
     }
     .project .project_list_tab ul.listing{
         width: 860px;
@@ -805,9 +805,6 @@
         bottom: 610px;
         height: 360px;
     }
-    .project .project_des .right_content{
-        bottom: 377px;
-    }
     .project .project_des .pra{
         top: -360px;
     }
@@ -820,6 +817,35 @@
     }
     
 }
+
+@media (min-width: 468px) and (max-width:575px){
+    
+    .project .project_des .right_content{
+        bottom: 435px;
+    }
+    .project .project_des .pra{
+        top: -283px;
+    }
+    .project .project_des_info{
+        height: 860px;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 470px;
+    }
+    .project .project_des .right_content{
+        bottom: 290px;
+    }
+    
+}
+
+@media (min-width: 376px) and (max-width:467px){
+    
+    .project .project_des .right_content{
+        bottom: 377px;
+    }
+    
+}
+
 
 @media (min-width: 320px) and (max-width: 375px){
     
@@ -848,7 +874,8 @@
         height: 975px;
     }
     .project .project_des .left_iamge_box{
-        bottom: 600px;
+        bottom: 590px;
+        height: 365px;
     }
     .project .project_des .right_content{
         bottom: 410px;
