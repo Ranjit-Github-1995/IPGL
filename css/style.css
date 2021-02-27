@@ -30,16 +30,6 @@ body {
 
 
 
-  @font-face {
-    font-family: 'FontAwesome5Free-Solid';
-    src:  url('../fonts/FontAwesome5Free-Solid/FontAwesome5Free-Solid.otf')  format('opentype'),
-           url('../fonts/FontAwesome5Free-Solid/FontAwesome5Free-Solid.woff') format('woff'), url('../fonts/FontAwesome5Free-Solid/FontAwesome5Free-Solid.ttf')  format('truetype'), url('../fonts/FontAwesome5Free-Solid/FontAwesome5Free-Solid.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -964,6 +954,7 @@ p {
     background-position: center center;
     padding: 160px 0 97px 0;
     margin-top: 115px;
+    background-attachment: fixed;
 }
 .project_gallery .vector_bg_shape{
     background-image: url(../images/project_gallery_bg.png);

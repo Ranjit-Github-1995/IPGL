@@ -56,6 +56,494 @@
 
 
 
+
+
+@media (max-width: 1600px){
+    
+    .africa_rising::after{
+        right: 150px;
+    }
+    .project .project_des_info{
+        width: 76%;
+    }
+}
+@media (max-width: 1340px){
+    
+    .carousel-control-next{
+        right: -87px;
+    }
+    .carousel-control-prev{
+        right: -87px;
+    }
+    .project .project_des_info{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1299px){
+    
+    .carousel-inner{
+        width: 90%;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        right: -60px;
+    }
+    .africa_rising .left_con h3{
+        font-size: 80px;
+    }
+    .africa_rising::after{
+        right: 50px;
+    }
+}
+
+@media (max-width: 1199px){
+    
+    .carousel-inner{
+        width: 90%;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        right: -30px;
+    }
+    .africa_rising .left_con h3{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .africa_rising .left_con p{
+        padding-top: 10px;
+    }
+    .africa_rising::after{
+        right: -40px;
+    }
+    .project .project_list_tab ul.listing li{
+        padding-right: 40px;
+    }
+    .project .project_list_tab ul.listing li a{
+        font-size: 20px;
+    }
+    .project .project_des .right_content h3{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .project .project_des .right_content span{
+        font-size: 26px;
+        width: 90%;
+    }
+    .fullscreen{
+        margin-top: -9%;
+    }
+    .our_location .left_contact h3{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .project_gallery,.project,.africa_rising,.gallery,.our_location{
+        margin-top: 70px;
+    }
+    .project_gallery .vector_bg_shape .content h3{
+        font-size: 65px;
+        line-height: 70px;
+        padding-bottom: 0px;
+    }
+    .project_gallery{
+        padding: 70px 0;
+    }
+    .project_gallery .vector_bg_shape{
+        background-size: 100% 100%;
+    }
+    .project_gallery .vector_bg_shape .content{
+        padding: 125px 0px 0 48px;
+    }
+    .get_in{
+        padding: 70px 0;
+    }
+    .get_in a{
+        width: 35%;
+        margin-bottom: 0px;
+    }
+    .our_location .right_map_vector img{
+        width: 100%;
+    }
+    .our_location .left_contact ul li a span{
+        width: 100%;
+        display: block;
+    }
+    .our_location .left_contact ul li a span:last-child{
+        padding-left: 0px;
+    }
+    .our_location .left_contact{
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 991px){
+    
+    .carousel-inner{
+        width: 90%;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 425px;
+        object-fit: cover;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        right: -30px;
+    }
+    .africa_rising .left_con h5{
+        font-size: 35px;
+    }
+    .africa_rising .left_con h3{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .africa_rising .left_con p{
+        padding-top: 10px;
+        width: 100%;
+    }
+    .africa_rising::after{
+        right: -40px;
+    }
+    .africa_rising img{
+        width: 100%;
+    }
+    .africa_rising .counting{
+        bottom: 20px;
+    }
+    .project .project_list_tab ul.listing li{
+        padding-right: 20px;
+    }
+    .project .project_list_tab{
+        padding: 70px 0 50px 0;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 155px;
+    }
+    .project .project_des .right_content{
+        padding-left: 10px;
+    }
+    .project .project_list_tab ul.listing li a{
+        font-size: 17px;
+    }
+    .project .project_des .right_content h3{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .project h2{
+        font-size: 50px;
+        top: -45%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+    .project .project_des .right_content span{
+        font-size: 22px;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .project .project_des .right_content{
+        bottom: 355px;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 310px;
+        height: 353px;
+    }
+    .project_gallery .vector_bg_shape .content p{
+        padding-bottom: 115px;
+        font-size: 24px;
+        font-size: 24px;
+    }
+    .fullscreen{
+        margin-top: -9%;
+    }
+    .our_location .left_contact h3{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .project_gallery,.project,.africa_rising,.gallery,.our_location{
+        margin-top: 50px;
+    }
+    .project_gallery .vector_bg_shape .content h3{
+        font-size: 55px;
+        line-height: 60px;
+        padding-bottom: 0px;
+    }
+    .project_gallery{
+        padding: 50px 0;
+    }
+    .project_gallery .vector_bg_shape{
+        background-size: 100% 100%;
+    }
+    .project_gallery .vector_bg_shape .content{
+        padding: 90px 0px 0 48px;
+    }
+    .gallery .lightbox a .overly_plus span img{
+        width: 65px;
+        height: 65px;
+        top: 40%;
+        left: 40%;
+    }
+    .gallery .lightbox a.view_more{
+        margin-top: 0px;
+    }
+    .gallery .lightbox::after{
+        width: 33%;
+    }
+    .gallery .lightbox::before{
+        width: 33%;
+    }
+    .project_gallery a{
+        padding: 80px 0;
+    }
+    .get_in{
+        padding: 50px 0;
+    }
+    .get_in a{
+        width: 35%;
+        margin-bottom: 0px;
+    }
+    .get_in h3{
+        padding-bottom: 25px;
+        font-size: 55px;
+    }
+    .get_in .form_area{
+        padding-top: 50px;
+    }
+    .our_location .right_map_vector img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .our_location .left_contact ul li a span{
+        width: 100%;
+        display: block;
+    }
+    .our_location .left_contact ul li a span:last-child{
+        padding-left: 0px;
+    }
+    .our_location .left_contact{
+        padding-top: 50px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    
+    .top_banner{
+        padding: 30px 0 50px 0;
+    }
+    .top_banner .banner_cap{
+        padding-top: 0px;
+    }
+    .top_banner .banner_cap span{
+        font-size: 90px;
+    }
+    .top_banner .banner_cap a{
+        display: table;
+        margin-bottom: 15px;
+    }
+    .africa_rising::after{
+        display: none;
+    }
+    .africa_rising .left_con a{
+        display: table;
+        margin-bottom: 15px;
+    }
+    .carousel-inner{
+        width: 90%;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 425px;
+        object-fit: cover;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        right: -30px;
+    }
+    .africa_rising .left_con h5{
+        font-size: 35px;
+    }
+    .africa_rising .left_con h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .africa_rising .left_con p{
+        padding-top: 10px;
+        width: 100%;
+    }
+    .africa_rising::after{
+        right: -40px;
+    }
+    .africa_rising img{
+        width: 100%;
+    }
+    .africa_rising .counting{
+        bottom: 20px;
+    }
+    .project .project_list_tab ul.listing li{
+        padding-right: 15px;
+    }
+    .project .project_list_tab{
+        padding: 100px 0 20px 0px;
+        overflow-x: auto;
+        overflow-y: scroll;
+        position: relative;
+        z-index: 0;
+    }
+    .project .project_des_info{
+        width: 100%;
+        margin-top: 30px;
+        height: 850px;
+    }
+    .project .project_list_tab ul.listing{
+        width: 860px;
+    }
+    .project .project_des .right_content{
+        padding-left: 10px;
+    }
+    .project .project_list_tab ul.listing li a{
+        font-size: 17px;
+    }
+    .project .project_des .right_content h5{
+        font-size: 35px;
+    }
+    .project .project_des .pra{
+        width: 98%;
+        top: -240px;
+        left: 3%;
+    }
+    .project .project_des .right_content h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .project h2{
+        font-size: 40px;
+        top: -35%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+    .project .project_des .right_content span{
+        font-size: 22px;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .project .project_des .right_content{
+        bottom: 270px;
+        padding-left: 0px;
+    }
+    .project .project_des .pra {
+	   width: 98%;
+	   position: absolute;
+	   top: -256px;
+	   left: 3%;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 460px;
+        height: 353px;
+        border: 7px solid #fff;
+    }
+    .project .project_des .left_iamge_box img{
+        height: 353px;
+    }
+    .project_gallery .vector_bg_shape .content p{
+        padding-bottom: 115px;
+        font-size: 24px;
+        font-size: 24px;
+    }
+    .fullscreen{
+        margin-top: -9%;
+    }
+    .our_location .left_contact h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .project_gallery,.project,.africa_rising,.gallery,.our_location{
+        margin-top: 50px;
+    }
+    .project_gallery .vector_bg_shape .content h3{
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+    .project_gallery{
+        padding: 50px 0;
+    }
+    .project_gallery .vector_bg_shape{
+        background-size: 100% 100%;
+    }
+    .project_gallery .vector_bg_shape .content{
+        padding: 90px 0px 0 48px;
+    }
+    .gallery .lightbox a .overly_plus span img{
+        width: 65px;
+        height: 65px;
+        top: 40%;
+        left: 40%;
+    }
+    .gallery .lightbox a.view_more{
+        margin-top: 0px;
+    }
+    .gallery .lightbox::after{
+        width: 33%;
+        display: none;
+    }
+    .gallery .lightbox::before{
+        width: 33%;
+        display: none;
+    }
+    .project_gallery a{
+        padding: 40px 0;
+    }
+    
+    .get_in{
+        padding: 50px 0;
+    }
+    .get_in a{
+        width: 40%;
+        margin: 25px auto auto auto;
+    }
+    .get_in h3{
+        padding-bottom: 6px;
+        font-size: 40px;
+    }
+    .get_in .form_area{
+        padding-top: 25px;
+    }
+    .our_location .right_map_vector img{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+    .our_location .left_contact ul li a span{
+        width: 100%;
+        display: block;
+    }
+    .our_location .left_contact ul li a span:last-child{
+        padding-left: 0px;
+    }
+    .our_location .left_contact{
+        padding-top: 50px;
+    }
+    .our_location .right_map_vector{
+        padding-top: 15px;
+    }
+    .get_in .form_area input[type="text"], [type="email"]{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #858886;
+    }
+    .get_in .form_area textarea{
+        margin-top: 0px;
+        border-bottom: 1px solid #858886;
+    }
+    .copyright .footer_social{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    
+    
+}
+
+
+
 @media (max-width: 575px){
     
     .navbar-toggler{
@@ -291,492 +779,6 @@
     }
     .copyright{
         padding: 25px 0;
-    }
-    .copyright .footer_social{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-    
-    
-}
-
-
-
-
-@media (max-width: 1600px){
-    
-    .africa_rising::after{
-        right: 150px;
-    }
-    .project .project_des_info{
-        width: 76%;
-    }
-}
-@media (max-width: 1340px){
-    
-    .carousel-control-next{
-        right: -87px;
-    }
-    .carousel-control-prev{
-        right: -87px;
-    }
-    .project .project_des_info{
-        width: 80%;
-    }
-}
-
-@media (max-width: 1299px){
-    
-    .carousel-inner{
-        width: 90%;
-    }
-    .carousel-control-prev,.carousel-control-next{
-        right: -60px;
-    }
-    .africa_rising .left_con h3{
-        font-size: 80px;
-    }
-    .africa_rising::after{
-        right: 50px;
-    }
-}
-
-@media (max-width: 1199px){
-    
-    .carousel-inner{
-        width: 90%;
-    }
-    .carousel-control-prev,.carousel-control-next{
-        right: -30px;
-    }
-    .africa_rising .left_con h3{
-        font-size: 65px;
-        line-height: 70px;
-    }
-    .africa_rising .left_con p{
-        padding-top: 10px;
-    }
-    .africa_rising::after{
-        right: -40px;
-    }
-    .project .project_list_tab ul.listing li{
-        padding-right: 40px;
-    }
-    .project .project_list_tab ul.listing li a{
-        font-size: 20px;
-    }
-    .project .project_des .right_content h3{
-        font-size: 65px;
-        line-height: 70px;
-    }
-    .project .project_des .right_content span{
-        font-size: 26px;
-        width: 90%;
-    }
-    .fullscreen{
-        margin-top: -9%;
-    }
-    .our_location .left_contact h3{
-        font-size: 65px;
-        line-height: 70px;
-    }
-    .project_gallery,.project,.africa_rising,.gallery,.our_location{
-        margin-top: 70px;
-    }
-    .project_gallery .vector_bg_shape .content h3{
-        font-size: 65px;
-        line-height: 70px;
-        padding-bottom: 0px;
-    }
-    .project_gallery{
-        padding: 70px 0;
-    }
-    .project_gallery .vector_bg_shape{
-        background-size: 100% 100%;
-    }
-    .project_gallery .vector_bg_shape .content{
-        padding: 125px 0px 0 48px;
-    }
-    .get_in{
-        padding: 70px 0;
-    }
-    .get_in a{
-        width: 35%;
-        margin-bottom: 0px;
-    }
-    .our_location .right_map_vector img{
-        width: 100%;
-    }
-    .our_location .left_contact ul li a span{
-        width: 100%;
-        display: block;
-    }
-    .our_location .left_contact ul li a span:last-child{
-        padding-left: 0px;
-    }
-    .our_location .left_contact{
-        padding-top: 70px;
-    }
-}
-
-@media (max-width: 991px){
-    
-    .carousel-inner{
-        width: 90%;
-    }
-    .carousel-inner img{
-        width: 100%;
-        height: 425px;
-        object-fit: cover;
-    }
-    .carousel-control-prev,.carousel-control-next{
-        right: -30px;
-    }
-    .africa_rising .left_con h5{
-        font-size: 35px;
-    }
-    .africa_rising .left_con h3{
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .africa_rising .left_con p{
-        padding-top: 10px;
-        width: 100%;
-    }
-    .africa_rising::after{
-        right: -40px;
-    }
-    .africa_rising img{
-        width: 100%;
-    }
-    .africa_rising .counting{
-        bottom: 20px;
-    }
-    .project .project_list_tab ul.listing li{
-        padding-right: 20px;
-    }
-    .project .project_list_tab{
-        padding: 70px 0 50px 0;
-    }
-    .project .project_des .left_iamge_box{
-        bottom: 155px;
-    }
-    .project .project_des .right_content{
-        padding-left: 10px;
-    }
-    .project .project_list_tab ul.listing li a{
-        font-size: 17px;
-    }
-    .project .project_des .right_content h3{
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .project h2{
-        font-size: 50px;
-        top: -45%;
-        right: 0;
-        left: 0;
-    }
-    .project .project_des .right_content span{
-        font-size: 22px;
-        width: 100%;
-        padding-top: 0px;
-    }
-    .project .project_des .right_content{
-        bottom: 355px;
-    }
-    .project .project_des .left_iamge_box{
-        bottom: 310px;
-        height: 353px;
-    }
-    .project_gallery .vector_bg_shape .content p{
-        padding-bottom: 115px;
-        font-size: 24px;
-        font-size: 24px;
-    }
-    .fullscreen{
-        margin-top: -9%;
-    }
-    .our_location .left_contact h3{
-        font-size: 55px;
-        line-height: 60px;
-    }
-    .project_gallery,.project,.africa_rising,.gallery,.our_location{
-        margin-top: 50px;
-    }
-    .project_gallery .vector_bg_shape .content h3{
-        font-size: 55px;
-        line-height: 60px;
-        padding-bottom: 0px;
-    }
-    .project_gallery{
-        padding: 50px 0;
-    }
-    .project_gallery .vector_bg_shape{
-        background-size: 100% 100%;
-    }
-    .project_gallery .vector_bg_shape .content{
-        padding: 90px 0px 0 48px;
-    }
-    .gallery .lightbox a .overly_plus span img{
-        width: 65px;
-        height: 65px;
-        top: 40%;
-        left: 40%;
-    }
-    .gallery .lightbox a.view_more{
-        margin-top: 0px;
-    }
-    .gallery .lightbox::after{
-        width: 33%;
-    }
-    .gallery .lightbox::before{
-        width: 33%;
-    }
-    .project_gallery a{
-        padding: 80px 0;
-    }
-    .get_in{
-        padding: 50px 0;
-    }
-    .get_in a{
-        width: 35%;
-        margin-bottom: 0px;
-    }
-    .get_in h3{
-        padding-bottom: 25px;
-        font-size: 55px;
-    }
-    .get_in .form_area{
-        padding-top: 50px;
-    }
-    .our_location .right_map_vector img{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
-    .our_location .left_contact ul li a span{
-        width: 100%;
-        display: block;
-    }
-    .our_location .left_contact ul li a span:last-child{
-        padding-left: 0px;
-    }
-    .our_location .left_contact{
-        padding-top: 50px;
-    }
-    
-}
-
-@media (max-width: 767px){
-    
-    .top_banner{
-        padding: 30px 0 50px 0;
-    }
-    .top_banner .banner_cap{
-        padding-top: 0px;
-    }
-    .top_banner .banner_cap span{
-        font-size: 90px;
-    }
-    .top_banner .banner_cap a{
-        display: table;
-        margin-bottom: 15px;
-    }
-    .africa_rising::after{
-        display: none;
-    }
-    .africa_rising .left_con a{
-        display: table;
-        margin-bottom: 15px;
-    }
-    .carousel-inner{
-        width: 90%;
-    }
-    .carousel-inner img{
-        width: 100%;
-        height: 425px;
-        object-fit: cover;
-    }
-    .carousel-control-prev,.carousel-control-next{
-        right: -30px;
-    }
-    .africa_rising .left_con h5{
-        font-size: 35px;
-    }
-    .africa_rising .left_con h3{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .africa_rising .left_con p{
-        padding-top: 10px;
-        width: 100%;
-    }
-    .africa_rising::after{
-        right: -40px;
-    }
-    .africa_rising img{
-        width: 100%;
-    }
-    .africa_rising .counting{
-        bottom: 20px;
-    }
-    .project .project_list_tab ul.listing li{
-        padding-right: 15px;
-    }
-    .project .project_list_tab{
-        padding: 100px 0 20px 0px;
-        overflow-x: auto;
-        overflow-y: scroll;
-        position: relative;
-        z-index: 555;
-    }
-    .project .project_des_info{
-        width: 100%;
-        margin-top: 30px;
-        height: 850px;
-    }
-    .project .project_list_tab ul.listing{
-        width: 860px;
-    }
-    .project .project_des .right_content{
-        padding-left: 10px;
-    }
-    .project .project_list_tab ul.listing li a{
-        font-size: 17px;
-    }
-    .project .project_des .right_content h5{
-        font-size: 35px;
-    }
-    .project .project_des .pra{
-        width: 98%;
-        top: -240px;
-        left: 3%;
-    }
-    .project .project_des .right_content h3{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .project h2{
-        font-size: 40px;
-        top: -35%;
-        right: 0;
-        left: 0;
-        position: absolute;
-    }
-    .project .project_des .right_content span{
-        font-size: 22px;
-        width: 100%;
-        padding-top: 0px;
-    }
-    .project .project_des .right_content{
-        bottom: 270px;
-        padding-left: 0px;
-    }
-    .project .project_des .pra {
-	   width: 98%;
-	   position: absolute;
-	   top: -256px;
-	   left: 3%;
-    }
-    .project .project_des .left_iamge_box{
-        bottom: 460px;
-        height: 353px;
-        border: 7px solid #fff;
-    }
-    .project .project_des .left_iamge_box img{
-        height: 353px;
-    }
-    .project_gallery .vector_bg_shape .content p{
-        padding-bottom: 115px;
-        font-size: 24px;
-        font-size: 24px;
-    }
-    .fullscreen{
-        margin-top: -9%;
-    }
-    .our_location .left_contact h3{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .project_gallery,.project,.africa_rising,.gallery,.our_location{
-        margin-top: 50px;
-    }
-    .project_gallery .vector_bg_shape .content h3{
-        font-size: 40px;
-        line-height: 50px;
-        padding-bottom: 0px;
-    }
-    .project_gallery{
-        padding: 50px 0;
-    }
-    .project_gallery .vector_bg_shape{
-        background-size: 100% 100%;
-    }
-    .project_gallery .vector_bg_shape .content{
-        padding: 90px 0px 0 48px;
-    }
-    .gallery .lightbox a .overly_plus span img{
-        width: 65px;
-        height: 65px;
-        top: 40%;
-        left: 40%;
-    }
-    .gallery .lightbox a.view_more{
-        margin-top: 0px;
-    }
-    .gallery .lightbox::after{
-        width: 33%;
-        display: none;
-    }
-    .gallery .lightbox::before{
-        width: 33%;
-        display: none;
-    }
-    .project_gallery a{
-        padding: 40px 0;
-    }
-    
-    .get_in{
-        padding: 50px 0;
-    }
-    .get_in a{
-        width: 40%;
-        margin: 25px auto auto auto;
-    }
-    .get_in h3{
-        padding-bottom: 6px;
-        font-size: 40px;
-    }
-    .get_in .form_area{
-        padding-top: 25px;
-    }
-    .our_location .right_map_vector img{
-        width: 100%;
-        position: relative;
-        bottom: 0;
-    }
-    .our_location .left_contact ul li a span{
-        width: 100%;
-        display: block;
-    }
-    .our_location .left_contact ul li a span:last-child{
-        padding-left: 0px;
-    }
-    .our_location .left_contact{
-        padding-top: 50px;
-    }
-    .our_location .right_map_vector{
-        padding-top: 15px;
-    }
-    .get_in .form_area input[type="text"], [type="email"]{
-        margin-bottom: 20px;
-        border-bottom: 1px solid #858886;
-    }
-    .get_in .form_area textarea{
-        margin-top: 0px;
-        border-bottom: 1px solid #858886;
     }
     .copyright .footer_social{
         display: flex;
