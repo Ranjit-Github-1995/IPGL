@@ -32,11 +32,21 @@
     }
 }
 
+@media (min-width: 992px){
+    
+    .mobile_logo{
+        display: none;
+    }
+}
+
 @media (max-width: 991px) {
-    .overlay{
+    /*.overlay{
         display: none;
     }
     .fullscreen{
+        display: none;
+    }*/
+    .navbar{
         display: none;
     }
 }
@@ -254,7 +264,7 @@
         font-size: 24px;
     }
     .fullscreen{
-        margin-top: -9%;
+        margin-top: -12%;
     }
     .our_location .left_contact h3{
         font-size: 55px;
@@ -475,7 +485,7 @@
         font-size: 24px;
     }
     .fullscreen{
-        margin-top: -9%;
+        margin-top: -15%;
     }
     .our_location .left_contact h3{
         font-size: 40px;
@@ -849,6 +859,9 @@
         width: 60%;
         padding: 10px;
     }
+    .fullscreen{
+        margin-top: -20%;
+    }
     
 }
 
@@ -940,6 +953,9 @@
     }
     .get_in a{
         width: 70%;
+    }
+    .fullscreen{
+        margin-top: -25%;
     }
     
 }
